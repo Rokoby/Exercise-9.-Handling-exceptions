@@ -43,14 +43,7 @@ namespace Задача
                 else
                 if (c == 4)
                 {
-                    try
-                    {
-                        Console.WriteLine("Результат - {0:F2}", (double)a / b);
-                    }
-                    catch (Exception e)
-                    {
-                        Console.WriteLine(e.Message);
-                    }
+                    Console.WriteLine("Результат - {0:F2}", (double)a / b);
                 }
                 else
                 Console.WriteLine("Неверный тип операции");
